@@ -2,13 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Hello, World! - A-Frame</title>
-    <meta name="description" content="Hello, World! - A-Frame">
+    <title>360 Video</title>
+    <meta name="description" content="360 Video — A-Frame">
     <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
   </head>
   <body>
     <a-scene>
-	  <a-box color="tomato" depth="2" height="4" width="0.5"></a-box>
+      <a-assets>
+        <video id="video" src="https://ucarecdn.com/bcece0a8-86ce-460e-856b-40dac4875f15/"
+               autoplay loop crossorigin></video>
+      </a-assets>
+
+      <a-videosphere src="#video" rotation="0 180 0"></a-videosphere>
     </a-scene>
   </body>
 </html>

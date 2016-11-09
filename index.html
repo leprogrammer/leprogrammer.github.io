@@ -8,13 +8,24 @@
   </head>
   <body>
     <a-scene>
-		<a-sky src="test.jpg" rotation="0 0 0"></a-sky>
-      <a-assets>
-        <!--<video id="video" src="test.mp4"
+	<a-sky src="classroom.jpg" rotation="0 0 0"></a-sky>
+	<a-entity camera>
+		<a-entity cursor="fuse: true; fuseTimeout: 500" 
+				  position="0 0 -1" geometry="primitive: ring" 
+				  material="color: red; shader: flat"></a-entity>
+	  </a-entity>
+		<!--<a-sky src="https://github.com/leprogrammer/leprogrammer.github.io/blob/master/test.jpg" rotation="0 0 0"></a-sky>
+      <a-entity camera>
+		<a-entity cursor="fuse: true; fuseTimeout: 500" 
+				  position="1 1 -1" geometry="primitive: ring" 
+				  material="color: red; shader: flat"></a-entity>
+	  </a-entity>
+	  <a-assets>
+        <video id="video" src="test.mp4"
                autoplay="true" loop="true" crossorigin></video>
       </a-assets>
 
-      <a-videosphere src="#video" rotation="0 0 0" autoplay="true" loop="true"></a-videosphere>-->
+      <a-videosphere src="#video" rotation="0 0 0" autoplay="true" loop="true" crossorigin></a-videosphere>-->
     </a-scene>
   </body>
 </html>

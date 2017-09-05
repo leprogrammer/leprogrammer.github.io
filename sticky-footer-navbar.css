@@ -22,8 +22,19 @@ body {
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
+.inlineDetails {
+  float: left;
+  width: 50%;
+  margin-right: 20px;
+}
+
+.inlineCarousel {
+  float: left;
+  width: 45%;
+}
+
 body > .container {
-  padding: 10px 15px 0;
+  padding: 0 15px 0;
 }
 
 .container .text-muted {

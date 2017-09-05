@@ -33,6 +33,20 @@ body {
   width: 45%;
 }
 
+@media (max-width: 650px) {
+  .inlineDetails {
+    float: none;
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  .inlineCarousel {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
 body > .container {
   padding: 0 15px 0;
 }

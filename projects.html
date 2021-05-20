@@ -58,73 +58,98 @@
 
     <!-- Begin page content -->
     <div class="container" style="padding: 60px 15px 0; padding-bottom: 1rem;">
-      <div class="page-header">
-        <h1>Projects</h1>
-      </div>
-      <div class="inlineDetails">
-        <p class="lead"><a href="https://github.com/leprogrammer/TabNabber">TabNabber Google Chrome Extension</a></p>
-        <p>A Google Chrome extension which detects the presence of a TabNab phishing attack. It alerts the user through visual feedback by displaying the mismatch percentage and a color coded scale of the percentage.
-           This extension works across multiple tabs and windows with no privacy intrusion as everything is done using the browser's memory for storing the images which is deleted once the browser ends its session.
-         </p>
-      </div>
+        <div class="page-header">
+            <h1>Projects</h1>
+        </div>
+        <div style="margin-top: 20px; margin-bottom: 40px;">
+            <p class="lead"><a href="https://github.com/leprogrammer/WashU-Schedule-Generator">WashU Schedule Generator Swift App</a></p>
+            <p>
+                The WashU Schedule Generator allows a CS student to select the classes they want to take for the upcoming semester. They can also select any specific criteria they want of no classes on Fridays or during lunch.
+                The application will then algorithmically generate all valid schedules for the student. The app was developed entirely in Swift 5.2.4 and was tested to work on all available Apple devices as of July 2020.
+                The project was created for the CSE438 course and was developed alongside Harprabh Sangha. The project proposal and sprint schedule can be viewed <a href="rsrc/documents/ScheduleBuilderProposal.pptx">here</a>.
+            </p>
+        </div>
 
-      <div class="inlineCarousel">
-        <div id="tabnabCarousel" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#tabnabCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#tabnabCarousel" data-slide-to="1"></li>
-            <li data-target="#tabnabCarousel" data-slide-to="2"></li>
-          </ol>
+        <div style="margin-top: 20px; margin-bottom: 40px;">
+            <p class="lead"><a href="https://github.com/leprogrammer/Domato-BFuzz-Integration">Domato & BFuzz Integration</a></p>
+            <p>
+                The Domato is a Fuzzing program which generates mutated web pages which can be tested on a web browser. BFuzz is an automated testing program which feeds web pages into a web browser and checks if any bugs or errors are detected in the web browser.
+                This project involved integrating both projects together to allow for a seamless testing pipeline for fuzzing web browsers. The project was done for CSE 637 and is written in Python and C#. The final project report 
+                can be found <a href="rsrc/documents/Fuzzing_Final_Report.pdf">here</a>.
+            </p>
+        </div>
 
-          <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active">
-              <img class="d-block img-fluid" src="rsrc/images/TabNab/Slide1.jpg" alt="Picture 1" />
+        <div class="inlineDetails">
+            <p class="lead"><a href="https://github.com/leprogrammer/TabNabber">TabNabber Google Chrome Extension</a></p>
+            <p>
+                A Google Chrome extension which detects the presence of a TabNab phishing attack. It alerts the user through visual feedback by displaying the mismatch percentage and a color coded scale of the percentage.
+                This extension works across multiple tabs and windows with no privacy intrusion as everything is done using the browser's memory for storing the images which is deleted once the browser ends its session.
+            </p>
+        </div>
+
+        <div class="inlineCarousel">
+            <div id="tabnabCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#tabnabCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#tabnabCarousel" data-slide-to="1"></li>
+                    <li data-target="#tabnabCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid" src="rsrc/images/TabNab/Slide1.jpg" alt="Picture 1" />
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="rsrc/images/TabNab/Slide2.png" alt="Picture 2" />
+                    </div>
+
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="rsrc/images/TabNab/Slide3.jpg" alt="Picture 3" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="clear: both; padding-top:70px;">
+            <p class="lead">Explicit Memory Allocator</p>
+            <p>
+                This project was created as part of the course CSE320. It manages up to four pages of memory through an address-ordered
+                explicit list with immediate coalescing. This was developed entirely in C.
+            </p>
+            <div style="margin-top: 20px;">
+                <p class="lead"><a href="https://github.com/leprogrammer/MIPS-Java-File-Reader">Java File Reader</a></p>
+                <p>
+                    This is a simple file reader created using the MIPS assembly language to display a Java file using video
+                    memory and highlights keywords specific to the Java syntax. This was developed as part of the course CSE220.
+                </p>
             </div>
 
-            <div class="carousel-item">
-              <img class="d-block img-fluid" src="rsrc/images/TabNab/Slide2.png" alt="Picture 2"/>
+            <div style="margin-top: 20px;">
+                <p class="lead"><a href="https://github.com/leprogrammer/BuzzWord">BuzzWord</a></p>
+                <p>
+                    BuzzWord is an adaptation of the word game Boggle in which the user or player has to find
+                    words from a 4 by 4 grid. This project was created as part of the course CSE219.
+                    This was a semester long project which introduced me to the software design process and led to the creation of a
+                    Software Design Description created from a Software Requirement Specification before this project was started. The created Software Design Description can be found
+                    <a href="rsrc/documents/TejasPrasadSDD.pdf">here</a>.
+                </p>
             </div>
 
-            <div class="carousel-item">
-              <img class="d-block img-fluid" src="rsrc/images/TabNab/Slide3.jpg" alt="Picture 3"/>
+            <div style="margin-top: 20px;">
+                <p class="lead">Creating and Using a Generative Adversarial Network in Medical Imaging</p>
+                <p>
+                    Helped to develop a Generative Adversarial Network (GAN) to turn MRI scans into PET scans.
+                    This project was being developed as part of a three person team under the supervision of Dr. Chuan Huang and
+                    his research team at Stony Brook Medicine. This project allowed me to learn more about machine learning and how it applies to medical imaging specifically.
+                </p>
             </div>
-          </div>
-        </div>
-      </div>
 
-      <div style="clear: both; padding-top:70px;">
-        <p class="lead">Explicit Memory Allocator</p>
-        <p>This project was created as part of the course CSE320. It manages up to four pages of memory through an address-ordered
-        explicit list with immediate coalescing. This was developed entirely in C.</p>
-        <div style="margin-top: 20px;">
-          <p class="lead"><a href="https://github.com/leprogrammer/MIPS-Java-File-Reader">Java File Reader</a></p>
-          <p>This is a simple file reader created using the MIPS assembly language to display a Java file using video
-            memory and highlights keywords specific to the Java syntax. This was developed as part of the course CSE220.</p>
+            <div style="margin-top: 20px;">
+                <p class="lead"><a href="https://github.com/leprogrammer/C-Shell">Shell</a></p>
+                <p>A fully functional shell built entirely in C. This project was created to utilize my knowledge of processes, control flow, and signals.</p>
+            </div>
         </div>
-
-        <div style="margin-top: 20px;">
-          <p class="lead"><a href="https://github.com/leprogrammer/BuzzWord">BuzzWord</a></p>
-          <p>BuzzWord is an adaptation of the word game Boggle in which the user or player has to find
-            words from a 4 by 4 grid. This project was created as part of the course CSE219.
-            This was a semester long project which introduced me to the software design process and led to the creation of a
-            Software Design Description created from a Software Requirement Specification before this project was started. The created Software Design Description can be found
-            <a href="rsrc/documents/TejasPrasadSDD.pdf">here</a>.
-          </p>
-        </div>
-
-        <div style="margin-top: 20px;">
-          <p class="lead">Creating and Using a Generative Adversarial Network in Medical Imaging</p>
-          <p>Helped to develop a Generative Adversarial Network (GAN) to turn MRI scans into PET scans.
-            This project was being developed as part of a three person team under the supervision of Dr. Chuan Huang and
-            his research team at Stony Brook Medicine. This project allowed me to learn more about machine learning and how it applies to medical imaging specifically.
-          </p>
-        </div>
-
-        <div style="margin-top: 20px;">
-          <p class="lead"><a href="https://github.com/leprogrammer/C-Shell">Shell</a></p>
-          <p>A fully functional shell built entirely in C. This project was created to utilize my knowledge of processes, control flow, and signals.</p>
-        </div>
-      </div>
     </div>
 
     <footer class="footer">
